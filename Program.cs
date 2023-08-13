@@ -15,7 +15,7 @@ namespace Morsecode
             /* Taking input and putting it in a char array, and also putting everything ToLower so 
              * the letters will match even if they're upper case
              */
-            char[] letters_pre = Console.ReadLine().ToLower().ToCharArray();
+            string letters_pre = Console.ReadLine().ToLower();
             // Creating an empty string, so we can add the desired morsecode for each letter
             string letters_post = "";
             /* Creating a foreach loop, every char in our char[] array will be replaced by c, 
